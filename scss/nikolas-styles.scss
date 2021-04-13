@@ -28,18 +28,21 @@
 $enable-gradients: true;
 $enable-shadows: true;
 
-// Customize some defaults
-$body-color: #eee;
-$body-bg: #333;
+// Colors
+$body-color: #777;
+$body-bg: #eee;
+
+// Borders
 $border-radius: .2rem;
 
+// Jumbotron
 $jumbotron-bg: lighten($body-bg, 20%);
 
 // Typography
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-$font-family-sans-serif:      Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif:      inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-$font-size-base:              1.0rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
 
 $font-weight-lighter:         lighter;
 $font-weight-light:           300;
@@ -51,13 +54,13 @@ $font-weight-base:            $font-weight-normal;
 $line-height-base:            1.2;
 
 $headings-font-weight:        $font-weight-bold;
-$headings-line-height:        1.0em;
+$headings-line-height:        1em;
 $headings-color:              null;
 
-$display1-weight:             $font-weight-bold;
+$display1-weight:             $font-weight-bolder;
 $display2-weight:             $font-weight-bold;
-$display3-weight:             $font-weight-bold;
-$display4-weight:             $font-weight-bold;
+$display3-weight:             $font-weight-normal;
+$display4-weight:             $font-weight-light;
 $display-line-height:         $headings-line-height;
 
 $lead-font-weight:            300;
