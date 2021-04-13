@@ -29,18 +29,23 @@ $enable-gradients: true;
 $enable-shadows: true;
 
 // Colors
-$body-color: #777;
-$body-bg: #eee;
+$body-color: #403537;
+$body-bg: #D9D6D0;
+
+$primary:       #A66C4B;
+$secondary:     #262222;
+$dark:          #262222;
+
 
 // Borders
 $border-radius: .2rem;
 
 // Jumbotron
-$jumbotron-bg: lighten($body-bg, 20%);
+$jumbotron-bg: lighten(#A1A6A5, 10%);
 
 // Typography
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-$font-family-sans-serif:      inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+$font-family-sans-serif:      Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
 
