@@ -25,8 +25,20 @@
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
 
 // Toggle global options
-$enable-gradients: true;
-$enable-shadows: true;
+
+$enable-caret:                                true;
+$enable-rounded:                              false;
+$enable-shadows:                              false;
+$enable-gradients:                            false;
+$enable-transitions:                          true;
+$enable-prefers-reduced-motion-media-query:   true;
+$enable-hover-media-query:                    false; // Deprecated, no longer affects any compiled CSS
+$enable-grid-classes:                         true;
+$enable-pointer-cursor-for-buttons:           true;
+$enable-print-styles:                         true;
+$enable-responsive-font-sizes:                false;
+$enable-validation-icons:                     true;
+$enable-deprecation-messages:                 true;
 
 // Colors
 // $body-color: #403537;
@@ -38,7 +50,9 @@ $enable-shadows: true;
 
 
 // Borders
-$border-radius: .2rem;
+$border-radius:               .25rem;
+$border-radius-lg:            .3rem;
+$border-radius-sm:            .2rem;
 
 // Jumbotron
 $jumbotron-bg: lighten(#A1A6A5, 10%);
